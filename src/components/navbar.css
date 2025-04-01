@@ -1,0 +1,47 @@
+.container{
+    height: 75px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+    align-items: center;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+}
+li, li a{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 500;
+
+}
+.logo{
+    width: 36px;
+    margin: 40px;
+}
+.logout-btn {
+    padding: 8px 20px;
+    background: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+}
+
+.logout-btn:hover {
+    background: #ff6b81;
+    transform: translateY(-1px);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
